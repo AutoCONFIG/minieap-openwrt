@@ -1,15 +1,6 @@
-
-# minieap for OpenWRT
-
-## Build
-
-First download [OpenWRT SDK](https://downloads.openwrt.org/) for your device.
-
-```sh
-cd /path/to/your/sdk
-cd package
-git clone https://github.com/2512500960/zzu-minieap-openwrt.git
-cd ..
-make menuconfig # choose `minieap` in section `Network`
-make package/zzu-minieap-openwrt/compile V=s
-```
+编译方法:
+1.去官网下载一份sdk并解压
+2.cd sdk
+3.git clone 
+4.make menuconfig
+5.make
