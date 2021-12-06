@@ -1,16 +1,16 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=minieap-kana
-PKG_VERSION:=0.93
-PKG_RELEASE:=3
+PKG_NAME:=minieap-taiga
+PKG_VERSION:=0.93.7-beta2
+PKG_RELEASE:=2
 PKG_MAINTAINER:=Kana <2674771438@qq.com>
 PKG_LICENSE:=GPLv3
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/ZenZRyan/minieap.git
+PKG_SOURCE_URL:=https://github.com/ZenZRyan/minieap-taiga.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=9e10f320a9fce46c8f4286324a0fc70e572f61dc
+PKG_SOURCE_VERSION:=cd0c70d47d37b9119d449efba429aebebbb65b0b
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 
 include $(INCLUDE_DIR)/package.mk
