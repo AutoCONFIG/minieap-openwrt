@@ -26,7 +26,6 @@ endef
 define Package/$(PKG_NAME)/install
 	$(INSTALL_DIR) $(1)/usr/sbin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/minieap $(1)/usr/sbin/
-
 	$(INSTALL_DIR) $(1)/lib/netifd/proto
 	$(INSTALL_BIN) ./files/minieap.sh $(1)/lib/netifd/proto/
 	$(INSTALL_BIN) ./files/minieap.script $(1)/lib/netifd/
