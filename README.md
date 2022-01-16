@@ -1,10 +1,11 @@
 编译方法:
-1.去官网下载一份sdk并解压
 
-2.cd sdk
+* 1.去官网下载一份sdk并解压
 
-3.git clone https://github.com/ZenZRyan/minieap-openwrt.git package/minieap-openwrt
+* 2.cd sdk
 
-4.make menuconfig
+* 3.git clone https://github.com/ZenZRyan/minieap-openwrt.git package/minieap-openwrt
 
-5.make package/minieap-openwrt/compile
+* 4.make menuconfig
+
+* 5.make package/minieap-openwrt/compile
