@@ -4,7 +4,7 @@
 
 * 2.cd sdk
 
-* 3.git clone https://github.com/ZenZRyan/minieap-openwrt.git package/minieap-openwrt
+* 3.git clone https://github.com/AutoCONFIG/minieap-openwrt.git package/minieap-openwrt
 
 * 4.make menuconfig
 
