@@ -12,18 +12,11 @@ start_service() {
 		procd_set_param stderr 1
 		procd_set_param respawn 0
 		procd_close_instance
-		echo "MiniEAP 已启动"
+		echo "MiniEAP STARTED"
 }
 
 stop_service() {
-	if [ -e "/var/run/minieap.pid" ]; then
-		killall minieap
-		echo "MiniEAP 已经接受退出指令"
-		rm -r /var/run/minieap.pid
-		echo "已发送删除PID文件请求"
-	else
-		echo "MiniEAP 没有被运行"
-	fi
+		echo "MiniEAP STOPPED"
 }
 
 reload_service() {
