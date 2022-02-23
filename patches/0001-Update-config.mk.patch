@@ -1,0 +1,28 @@
+From 879b5cea3f70b9d041989d21c262db8f2eefb1c7 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E4=BD=A0=E5=AE=B6=E8=87=AD=E7=8B=97=E5=B1=8E?=
+ <42485691+AutoCONFIG@users.noreply.github.com>
+Date: Wed, 23 Feb 2022 11:52:55 +0800
+Subject: [PATCH] Update config.mk
+
+---
+ config.mk | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/config.mk b/config.mk
+index 71a6970..dc5d063 100644
+--- a/config.mk
++++ b/config.mk
+@@ -17,8 +17,8 @@ PLUGIN_MODULES += if_impl_sockraw
+ # PLUGIN_MODULES += ifaddrs
+ 
+ ENABLE_DEBUG  := false
+-ENABLE_ICONV  := true
+-ENABLE_GBCONV := false
++ENABLE_ICONV  := false
++ENABLE_GBCONV := true
+ STATIC_BUILD  := false
+ 
+ # If your platform has iconv_* integrated into libc, change to false
+-- 
+2.25.1
+
