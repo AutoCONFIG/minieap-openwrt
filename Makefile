@@ -8,9 +8,9 @@ PKG_LICENSE:=GPLv3
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/AutoCONFIG/minieap-openwrt.git
+PKG_SOURCE_URL:=https://github.com/AutoCONFIG/minieap-taiga.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=HEAD
+PKG_SOURCE_VERSION:=main
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 
 include $(INCLUDE_DIR)/package.mk
