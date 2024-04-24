@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=minieap
-PKG_VERSION:=0.93.7
+PKG_VERSION:=0.93.6
 PKG_RELEASE:=1
 PKG_MAINTAINER:=lala <maoerpet@foxmail.com>
 PKG_LICENSE:=GPLv3
@@ -19,7 +19,7 @@ define Package/$(PKG_NAME)
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=Extensible 802.1x client with Ruijie v3 (v4) plugin
-	MAINTAINER:=updateing && lala
+	MAINTAINER:=updateing
 	URL:=https://github.com/AutoCONFIG
 endef
 
