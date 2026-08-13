@@ -1,3 +1,5 @@
+
+
 ## 编译方法:
 
 * 1.去官网下载一份sdk并解压
@@ -17,7 +19,7 @@
 * default 带有执行脚本，适配GUI配置界面，集成启动项但不加入守护进程脚本（如果需要GUI配置界面需要切换至此分支）
 
 ## 分支切换方法：
-* cd到clone仓库的更目录（例如：cd ~/minieap-openwrt)
+* cd到clone仓库的根目录（例如：cd ~/minieap-openwrt)
 * git branch -a (检查clone仓库的分支信息)
 * git checkout 分支名称 （可以配合tab键自动填充）
 * 完成！
